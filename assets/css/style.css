@@ -1,0 +1,123 @@
+/* General */
+body{
+    margin: 0;
+    padding: 0%;
+    height: 700px;
+    font-family: Montserrat;
+}
+
+/* Nav Bar */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  /*border: solid 1px #979797;
+  background-color: #d8d8d8; */
+}
+
+#navtitle{
+  
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+/* Background */
+
+.backgroundContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 627px;
+    background-color: #d8d8d8;
+    background-image:
+}
+
+
+/* Content Box */
+
+.mainContainer{
+    display: grid;
+    grid-template-rows: auto;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding-top: 2%;
+}
+
+
+.info > div {
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+    line-height: 5px;
+    text-align: center;
+    
+}
+
+/*
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: blue;
+    margin-top: -100px;
+}
+*/
+
+
+.buttons > div {
+    justify-self: center;
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border:red 1px solid;
+    margin: 30px auto;
+}
+
+
+/*
+#button1{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:red;
+    margin: 20px auto;
+}
+
+#button2{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:red;
+    margin: 20px auto;
+}
+
+#button3{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:red;
+    margin: 20px auto;
+}
+
+#button4{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:red;
+    margin: 20px auto;
+}
+*/
